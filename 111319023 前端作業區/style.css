@@ -67,9 +67,11 @@ nav ul li a:hover {
 }
 
 .banner img {
-  width: 100%;
-  height: auto;
+  width: 1000px; 
+  height: 300px; 
+  object-fit: cover; 
   display: block;
+  margin: 0 auto; 
 }
 
 .content {
@@ -109,3 +111,4 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
+
